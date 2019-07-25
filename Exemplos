@@ -1,0 +1,26 @@
+public class Aplicacao {
+	
+	public static void main(String[] args) {
+		
+		//Aqui ocorre casting implícito, pois o Eclipse já faz a conversão do número inteiro 10 para 10 long.
+		//long x = 10;
+		
+		//double x = 35;
+		//System.out.println(x);
+		
+		//float x = 40;
+		
+		//Aqui ocorre casting explicito.
+		//float x = (float) 40.0;
+		
+		//short x = 100000;
+		short x = (short) 100000;
+		
+		System.out.println(x);
+		
+	}
+
+}
+
+
+//sysout + CTRL + ESPAÇO
